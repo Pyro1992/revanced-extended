@@ -6,6 +6,7 @@ version = "20.07.39"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 arch = "arm64-v8a"
+patches-version = "vv5.19.0-dev.16"
 
 [YouTube-Extended]
 enabled = true
@@ -42,7 +43,7 @@ included-patches = """\
     'Spoof signature' \
     """
 uptodown-dlurl = "https://spotify.de.uptodown.com/android"
-patches-version = "v5.19.0-dev.9"
+patches-version = "vv5.19.0-dev.16"
 
 [Instagram]
 arch = "arm64-v8a"
