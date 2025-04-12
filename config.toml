@@ -18,7 +18,6 @@ version = "19.47.53"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 arch = "arm64-v8a"
-patches-version = "dev"
 apkmirror-dpi = "120-640dpi"
 uptodown-dpi = "nodpi"
 
