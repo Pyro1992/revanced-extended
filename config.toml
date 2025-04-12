@@ -6,6 +6,8 @@ version = "20.07.39"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 arch = "arm64-v8a"
+patches-source = "revanced/revanced-patches"
+cli-source = "j-hc/revanced-cli"  
 patches-version = "v5.19.0-dev.16"
 
 [YouTube-Extended]
@@ -44,6 +46,8 @@ included-patches = """\
     'Spoof signature' \
     """
 uptodown-dlurl = "https://spotify.de.uptodown.com/android"
+patches-source = "revanced/revanced-patches"
+cli-source = "j-hc/revanced-cli"  
 patches-version = "v5.19.0-dev.16"
 
 [Instagram]
