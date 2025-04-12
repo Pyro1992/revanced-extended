@@ -1,5 +1,5 @@
 [YouTube]
-enabled = false
+enabled = true
 excluded-patches = "'Custom branding icon for YouTube' 'Custom branding name for YouTube' 'Theme'"
 included-patches = "'MaterialYou' 'Return YouTube Username'"
 version = "20.07.39"
@@ -43,6 +43,8 @@ included-patches = """\
     'Spoof signature' \
     """
 uptodown-dlurl = "https://spotify.de.uptodown.com/android"
+patches-source = "revanced/revanced-patches"
+cli-source = "j-hc/revanced-cli"
 patches-version = "v5.19.0-dev.16"
 
 [Instagram]
