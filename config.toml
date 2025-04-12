@@ -43,7 +43,7 @@ included-patches = """\
     'Spoof signature' \
     """
 uptodown-dlurl = "https://spotify.de.uptodown.com/android"
- patches-version = "v5.19.0-dev.16"
+patches-version = "v5.19.0-dev.16"
 
 [Instagram]
 enabled = false
