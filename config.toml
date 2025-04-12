@@ -1,5 +1,5 @@
 [YouTube]
-enabled = true
+enabled = false
 excluded-patches = "'Custom branding icon for YouTube' 'Custom branding name for YouTube' 'Theme'"
 included-patches = "'MaterialYou' 'Return YouTube Username'"
 version = "20.07.39"
@@ -19,11 +19,13 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 arch = "arm64-v8a"
 patches-version = "dev"
+apkmirror-dpi = "120-640dpi"
+uptodown-dpi = "nodpi"
 
 
 
 [Music-Extended]
-enabled = true
+enabled = false
 app-name = "YouTube Music"
 patches-source = "inotia00/revanced-patches"
 cli-source = "inotia00/revanced-cli"
@@ -34,7 +36,7 @@ uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 patches-version = "dev"
 
 [Spotify]
-enabled = true
+enabled = false
 app-name = "Spotify"
 arch = "arm64-v8a"
 version = "latest"
@@ -46,18 +48,18 @@ uptodown-dlurl = "https://spotify.de.uptodown.com/android"
 patches-version = "v5.19.0-dev.16"
 
 [Instagram]
+enabled = false
 arch = "arm64-v8a"
-enabled = true
 apkmirror-dlurl = "https://apkmirror.com/apk/instagram/instagram-instagram/"
 
 [Tiktok]
+enabled = false
 arch = "arm64-v8a"
-enabled = true
 apkmirror-dlurl = "https://apkmirror.com/apk/tiktok-pte-ltd/tik-tok-including-musical-ly/"
 version = "36.5.4"
 
 [Twitter]
-enabled = true
+enabled = false
 arch = "arm64-v8a"
 apkmirror-dlurl = "https://apkmirror.com/apk/twitter-inc/twitter"
 uptodown-dlurl = "https://twitter.de.uptodown.com/android"
