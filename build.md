@@ -1,5 +1,3 @@
-Music-Extended: 8.05.51  
-Twitter: 10.84.0-release.0  
 YouTube: 20.07.39  
 Spotify: 9.0.44.4  
 YouTube-Extended: 19.47.53  
