@@ -37,7 +37,6 @@ patches-version = "dev"
 [Spotify]
 enabled = true
 uptodown-dlurl = "https://spotify.en.uptodown.com/android"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/spotify-ab/spotify-music-podcasts/"
 
     
 [Spotify-anddea]
