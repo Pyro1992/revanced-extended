@@ -43,8 +43,16 @@ included-patches = """\
     'Unlock Spotify Premium' \
     'Spoof signature' \
     """
-uptodown-dlurl = "https://spotify.de.uptodown.com/android"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/spotify-ab/spotify-music-podcasts/"
 
+    
+[Spotify anddea]
+patches-source = "anddea/revanced-patches"
+enabled = true
+app-name = "Spotify+"
+arch = "arm64-v8a"
+version = "latest"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/spotify-ab/spotify-music-podcasts/"
 
 [Instagram]
 enabled = false
