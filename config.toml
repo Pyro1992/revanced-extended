@@ -1,5 +1,5 @@
 [YouTube]
-enabled = true
+enabled = false
 excluded-patches = "'Custom branding icon for YouTube' 'Custom branding name for YouTube' 'Theme'"
 included-patches = "'MaterialYou' 'Return YouTube Username'"
 version = "20.07.39"
@@ -9,7 +9,7 @@ arch = "arm64-v8a"
 
 
 [YouTube-Extended]
-enabled = true
+enabled = false
 patches-source = "inotia00/revanced-patches"
 cli-source = "inotia00/revanced-cli"
 excluded-patches = "'Custom branding icon for YouTube' 'Custom branding name for YouTube' 'Theme'"
