@@ -1,56 +1,25 @@
-[YouTube]
-enabled = false
-excluded-patches = "'Custom branding icon for YouTube' 'Custom branding name for YouTube' 'Theme'"
-included-patches = "'MaterialYou' 'Return YouTube Username'"
-version = "20.07.39"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
-uptodown-dlurl = "https://youtube.en.uptodown.com/android"
-arch = "arm64-v8a"
-
-
-[YouTube-Extended]
-enabled = false
-patches-source = "inotia00/revanced-patches"
+parallel-jobs = 1
+patches-source = "anddea/revanced-patches"
 cli-source = "inotia00/revanced-cli"
-excluded-patches = "'Custom branding icon for YouTube' 'Custom branding name for YouTube' 'Theme'"
-included-patches = "'MaterialYou' 'Return YouTube Username'"
-version = "19.47.53"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
-uptodown-dlurl = "https://youtube.en.uptodown.com/android"
-arch = "arm64-v8a"
-apkmirror-dpi = "120-640dpi"
-uptodown-dpi = "nodpi"
-
-
-
-[Music-Extended]
-enabled = false
-app-name = "YouTube Music"
-patches-source = "inotia00/revanced-patches"
-cli-source = "inotia00/revanced-cli"
-rv-brand = "ReVanced Extended"
-arch = "arm64-v8a"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
-uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 patches-version = "dev"
 
-[Spotify]
-enabled = true
-uptodown-dlurl = "https://spotify.en.uptodown.com/android"
+[YouTube-Extended]
+app-name = "YouTube"
+rv-brand = "ReVanced Extended"
+build-mode = "apk"
+version = "20.21.37"
 arch = "arm64-v8a"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
+excluded-patches = "'Custom branding icon for YouTube' 'Custom branding name for YouTube' 'Custom header for YouTube'"
+included-patches = "'Visual preferences icons for YouTube' 'Return YouTube Username'"
+patcher-args = "-e 'Theme' -OdarkThemeBackgroundColor=#FF111111 -OlightThemeBackgroundColor=#FFF9F9F9"
 
-    
-[Spotify-anddea]
-enabled = false
-patches-source = "anddea/revanced-patches"
-app-name = "Spotify+"
-version = "latest"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/spotify-ab/spotify-music-podcasts/"
-
-[Twitter]
-enabled = false
+[YouTube-Music-Extended]
+app-name = "YouTube Music"
+rv-brand = "ReVanced Extended"
+build-mode = "apk"
 arch = "arm64-v8a"
-apkmirror-dlurl = "https://apkmirror.com/apk/twitter-inc/twitter"
-uptodown-dlurl = "https://twitter.de.uptodown.com/android"
-version = "10.84.0-release.0"
-apkmirror-dpi = "120-640dpi"  
+version = "8.24.53"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
+excluded-patches = "'Custom branding icon for YouTube Music' 'Custom branding name for YouTube Music' 'Custom header for YouTube Music'"
+included-patches = "'Visual preferences icons for YouTube Music' 'Return YouTube Username'"
