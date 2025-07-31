@@ -4,7 +4,7 @@ cli-source = "inotia00/revanced-cli"
 patches-version = "dev"
 
 [YouTube-Extended]
-app-name = "YouTube"
+app-name = "YouTube ReVanced"
 rv-brand = "ReVanced Extended"
 build-mode = "apk"
 version = "20.21.37"
